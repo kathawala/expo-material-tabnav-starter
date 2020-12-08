@@ -3,13 +3,13 @@ import { StyleSheet } from 'react-native';
 import { Text } from 'react-native-paper';
 import View from './View';
 
-interface IHomeProps {
+interface IMessagesProps {
 }
 
-const Home: React.FunctionComponent<IHomeProps> = (props) => {
+const Messages: React.FunctionComponent<IMessagesProps> = (props) => {
   return (    
     <View style={styles.container}>
-      <Text>(Home Screen)</Text>
+      <Text>(Messages Screen)</Text>
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
   );
@@ -23,5 +23,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Messages;
 

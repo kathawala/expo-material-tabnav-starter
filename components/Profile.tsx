@@ -3,13 +3,14 @@ import { StyleSheet } from 'react-native';
 import { Text } from 'react-native-paper';
 import View from './View';
 
-interface IHomeProps {
+interface IProfileProps {
 }
 
-const Home: React.FunctionComponent<IHomeProps> = (props) => {
+const Profile: React.FunctionComponent<IProfileProps> = (props) => {
   return (    
     <View style={styles.container}>
-      <Text>Da Prof!</Text>
+      <Text>(Profile Screen)</Text>
+      <Text>Open up App.tsx to start working on your app!</Text>
     </View>
   );
 };
@@ -22,5 +23,5 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Home;
+export default Profile;
 
